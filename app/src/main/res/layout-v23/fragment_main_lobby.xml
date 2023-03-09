@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:id="@+id/ll_search_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/gap_larger"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:src="@drawable/ic_weather"
+            android:id="@+id/iv_initial_icon"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:contentDescription="Initial weather icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/gap_larger"
+            android:fontFamily="@font/circular_std"
+            android:text="@string/initial_tittle_lobby"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_larger" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_txt_city_name"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/gap_larger"
+            android:background="@drawable/shape_rounded_gradient"
+            android:fontFamily="@font/circular_std"
+            android:hint="@string/city_place_holder"
+            android:includeFontPadding="true"
+            android:paddingHorizontal="@dimen/gap_larger"
+            android:inputType="text"
+            android:textColor="@color/gray_light"
+            android:textColorHint="@color/gray_place_holder"
+            android:textSize="@dimen/font_size_medium"
+            tools:ignore="RtlSymmetry" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_search_by_city_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/gap_larger"
+            android:background="@drawable/button_selected_effect_v21"
+            android:text="@string/btn_search"
+            android:textAllCaps="false"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/font_size_medium" />
+
+    </LinearLayout>
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/pi_loading"
+        android:layout_width="41dp"
+        android:layout_height="48dp"
+        android:indeterminate="true"
+        app:indicatorColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_search_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

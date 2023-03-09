@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">HyperWeather</string>
+    <string name="initial_tittle_lobby">Weather Search By City Name</string>
+    <string name="city_place_holder">City name</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_return">Return</string>
+    <string name="sunrise_tittle">Sunrise</string>
+    <string name="sunset_tittle">Sunset</string>
+    <string name="summary_name">Summary</string>
+    <string name="min_max_name" translatable="false">min/max</string>
+    <string name="clouds_name">Cloud</string>
+    <string name="humidity_name">Humidity</string>
+    <string name="not_found_error">City not found</string>
+    <string name="place_holder_error">Do not leave the space blank</string>
+    <string name="error_name">Error</string>
+</resources>

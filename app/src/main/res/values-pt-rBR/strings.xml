@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="initial_tittle_lobby">Busca do clima pelo nome da cidade</string>
+    <string name="city_place_holder">Nome da Cidade</string>
+    <string name="btn_search">Buscar</string>
+    <string name="btn_return">Voltar</string>
+    <string name="sunrise_tittle">Nascer do Sol</string>
+    <string name="sunset_tittle">Pôr do Sol</string>
+    <string name="summary_name">Sumário</string>
+    <string name="clouds_name">Nebulosdidade</string>
+    <string name="humidity_name">Humidade</string>
+    <string name="place_holder_error">Não deixe o espaço em branco</string>
+    <string name="not_found_error">Cidade não encontrada</string>
+    <string name="error_name">Erro</string>
+</resources>
