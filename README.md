@@ -1,7 +1,7 @@
 
 # HyperWeather ⛅
 
-Este projeto é uma aplicação que tem como objetivo entregar informações simultâneas sobre o clima, bastando somente fornecer o nome da cidade a ser consultada.
+Este projeto é uma **Aplicação que tem como objetivo entregar informações simultâneas sobre o clima**, bastando somente fornecer o nome da cidade a ser consultada.
 
 ## Tecnologias usadas 🚀
 
